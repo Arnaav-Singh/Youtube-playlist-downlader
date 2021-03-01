@@ -9,5 +9,5 @@ print("No of Videos: %s" % len(playlist.video_urls))
 for url in playlist.video_urls:
     youtube = pytube.YouTube(url)
     video = youtube.streams.first()
-    video.download(r'C:\Users\Arnaav\Desktop\Instrumental')
+    video.download(r'')#Insert your location for the download of the playlist 
 print("Thanks for using this video downloader made by Arnaav Singh")
